@@ -1,0 +1,19 @@
+name: 'Notify Slack'
+branding :
+    icon : 'send'
+    color : 'gray-dark'
+author: 'Chetan Talwar'
+description: 'Sending a notification to Slack Channel'
+inputs:
+    teams_webhook_url:
+        description: WebHook URL of your Slack Channel
+        required: true
+    message:
+        description: Message to be sent
+        required: true
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        - ${{ inputs.slack_webhook_url }}
+        - '${{ inputs.message }}'
