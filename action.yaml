@@ -1,4 +1,4 @@
-name: 'Slack Notifications'
+name: 'Notifications to Slack'
 branding :
     icon : 'send'
     color : 'gray-dark'
