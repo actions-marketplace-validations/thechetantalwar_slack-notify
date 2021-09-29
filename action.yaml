@@ -5,7 +5,7 @@ branding :
 author: 'Chetan Talwar'
 description: 'Sending a notification to Slack Channel'
 inputs:
-    teams_webhook_url:
+    slack_webhook_url:
         description: WebHook URL of your Slack Channel
         required: true
     message:
