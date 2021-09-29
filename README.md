@@ -38,3 +38,7 @@
             message: "Github Action Build Number ${{ github.run_number }} Completed for ${{ github.repository }} and the outcome is  ${{ needs.build.result }}."
     ```
 
+- The above stated sample will send a message like below
+    ![Sample Notification](https://github.com/thechetantalwar/slack-notify/blob/master/sample.png?raw=true)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
