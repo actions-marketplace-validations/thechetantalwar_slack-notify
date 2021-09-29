@@ -1,6 +1,4 @@
 ## Slack Notify - Github Actions
----
-
 - A Github Action to send Job Status to Slack Channel
 
 ## Usage
